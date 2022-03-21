@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula  5 - AluraFlix v2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <p class="page-title">Chiazza<span class="span-edit">FLIX</span> </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  <div id="adicionar-jogo">
+    <h2 class="page-subtitle">Adicione seus jogos favoritos</h2>
+    <br>
+    <input type="url" id="urlJogo" class="input-edit" placeholder="Insira a url da imagem (.jpg)">
+    <input type="text" id="nomeJogo" class="input-edit" placeholder="Insira o nome do jogo">
+    <div id="buttons">
+      <button onClick="adicionarJogo()">Adicionar jogo</button>
+      <button onClick="limpar()">Limpar </button>
+    </div>
+  </div>
+</div>
+<div id='jogos'>
+
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
